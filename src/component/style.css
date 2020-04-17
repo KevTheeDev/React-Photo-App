@@ -1,8 +1,17 @@
+ul{
+    list-style-type: none;
+
+    overflow: hidden;
+}
+
 li{
-    /* inline puts everything on the same row */
-    /*  */
-    display: inline;
+    float: left;
+}
+
+li a{
+    /* display block put the list in the middle */
+    /* padding creates space between the words */
+    display: block;
+    padding: 20px;
     background-color: aliceblue;
-    text-align: right;
-    justify-content: space-between;
 }
