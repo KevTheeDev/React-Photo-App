@@ -4,32 +4,39 @@ form{
     width: 50%;
   }
   
-  input{
-    /* 1. 
-       width of boxes
-       extra width in boxes
-       margin around the boxes
-       border- outer edges of boxes
-       border rad- rounds the egdes 
-       border box- resizes the box
-       */
+input{
+/* 1. 
+    width of boxes
+    extra width in boxes
+    margin around the boxes
+    border- outer edges of boxes
+    border rad- rounds the egdes 
+    border box- resizes the box
+    */
     width: 100%;
     padding: 12px;
     margin: 12px;
     border: 1px solid orange;
     border-radius: 5px;
     box-sizing: border-box;
-  
-  }
-  
-  #title{
+
+}
+
+#title{
     text-align: left;
-  }
-  
-  button{
+}
+
+label{
+    margin-left: 3mm;
+}
+
+button{
     background-color: rgb(8, 126, 216);
     color: white;
     font-weight: 500;
     font-size: large;
     height: .5in;
-  }
+    width: 25mm;
+    margin-left: 3mm;
+    border-radius: 12%;
+}
