@@ -1,0 +1,8 @@
+li{
+    /* inline puts everything on the same row */
+    /*  */
+    display: inline;
+    background-color: aliceblue;
+    text-align: right;
+    justify-content: space-between;
+}
