@@ -23,6 +23,8 @@ class App extends React.Component {
 
             <li><a>Next</a></li>
         </ul>
+
+        <Login />
     </div>
     );
   }
