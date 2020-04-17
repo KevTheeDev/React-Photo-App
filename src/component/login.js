@@ -8,6 +8,8 @@ class Login extends React.Component {
             username: '',
             password: '',
          };
+         // bind .this to control for the component onInput
+         this.onInput = this.onInput.bind(this);
     }
 
     // (e.target.name, e.target.value);
