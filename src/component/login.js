@@ -15,7 +15,7 @@ class Login extends React.Component {
     onInput(e) {
         this.setState({ [e.target.name]: e.target.value })
       }
-
+ 
       // lets us see the values of whats submitted
       // clear after obsubmit use -> this.setState( add empty key value pairs)
       // this.props.onSubmit(this.state) --> shows user input in concole
@@ -24,9 +24,6 @@ class Login extends React.Component {
         this.setState({
           username: '',
           password: '',
-          age: '',
-          gender: {male: '', female: '', other: ''},
-          occupation: ''
         })
       }   
 
