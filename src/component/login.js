@@ -9,17 +9,16 @@ class Login extends React.Component {
          };
     }
 
+    // (e.target.name, e.target.value);
+    // I think this updates the states in the console
     onInput(e) {
-        // (e.target.name, e.target.value);
-        // I think this updates the states in the console
         this.setState({ [e.target.name]: e.target.value })
       }
 
+      // lets us see the values of whats submitted
+      // clear after obsubmit use -> this.setState( add empty key value pairs)
+      // this.props.onSubmit(this.state) --> shows user input in concole
     onSubmit(e){
-        // lets us see the values of whats submitted
-        // clear after obsubmit use -> this.setState( add empty key value pairs)
-          // 
-        // this.props.onSubmit(this.state) --> shows user input in concole
         this.props.onSubmit(this.state)
         this.setState({
           username: '',
@@ -34,7 +33,7 @@ class Login extends React.Component {
         return (
           <div className="reactapp">
             
-           <h1 className="title" > Photo Media App</h1>
+           <h1 className="title" > Photo Media App </h1>
       
             {/* used onchange to call the function that will catch the event that updates the state when text is entered in the input boxes */}
             <form onChange={this.onInput} >         
