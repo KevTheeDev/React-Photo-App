@@ -1,24 +1,27 @@
 import React from 'react';
-import './App.css';
+import style from './component/style.css'
+import Login from './component/Login.js';
 
+ 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-
+      username: '',
+      password: '',
      };
   }
   render() {
     return (
       <div>
         <ul>
-            <li><a href="#" className="active">Home </a></li>
+            <li><a className="active">Home </a></li>
 
             <li className="dropdown">
-                <a className="dropdown" href="#">About </a>
+                <a className="dropdown" >About </a>
             </li>
 
-            <li><a href="#">Next</a></li>
+            <li><a>Next</a></li>
         </ul>
     </div>
     );
