@@ -8,6 +8,13 @@ class Login extends React.Component {
             password: '',
          };
     }
+
+    onInput(e) {
+        // (e.target.name, e.target.value);
+        // I think this updates the states in the console
+        this.setState({ [e.target.name]: e.target.value })
+      }
+
     render(){
         return (
           <div className="reactapp">
@@ -18,13 +25,13 @@ class Login extends React.Component {
             <form onChange={this.onInput} >         
               <div>
                 <label>Username</label>
-                <input type='text' name="username" />
+                <input type='text' name="username" placeholder="email or username"/>
               </div>
       
               <div>
                 <label>Password</label>
                 {/* 3. type passwrod hides the word you enter */}
-                <input type='password' name="password" />
+                <input type='password' name="password" placeholder="password"/>
               </div>
             </form>
       
