@@ -19,7 +19,7 @@ class Login extends React.Component {
         return (
           <div className="reactapp">
             
-           <h1 className="title" >REACT BASE SIGN UP FORM</h1>
+           <h1 className="title" > Photo Media App</h1>
       
             {/* used onchange to call the function that will catch the event that updates the state when text is entered in the input boxes */}
             <form onChange={this.onInput} >         
