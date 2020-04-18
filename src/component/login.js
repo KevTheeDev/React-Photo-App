@@ -22,7 +22,7 @@ class Login extends React.Component {
       // clear after obsubmit use -> this.setState( add empty key value pairs)
       // this.props.onSubmit(this.state) --> shows user input in concole
     onSubmit(e){
-        // this.props.onSubmit(this.state)
+        this.props.onSubmit(this.state)
         this.setState({
           username: '',
           password: '',

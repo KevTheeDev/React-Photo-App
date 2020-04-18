@@ -11,6 +11,8 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: aliceblue;
+
 }
 
 li a{
@@ -18,5 +20,4 @@ li a{
     /* padding creates space between the words */
     display: block;
     padding: 20px;
-    background-color: aliceblue;
 }
