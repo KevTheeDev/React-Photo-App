@@ -2,13 +2,15 @@ import React from 'react';
 // @ts-ignore
 import NavigationBar from './component/NavigationBar.css';
 import Login from './component/Login.js';
-
+import Home from './component/Home.js';
+import Bookmarks from './component/Bookmarks.js';
+import UserProfile from './component/UserProfile.js';
  
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      
+
      };
   }
   render() {
@@ -25,9 +27,12 @@ class App extends React.Component {
         </ul>
 
         <Login />
+        <Home />
+        <UserProfile />
+        <Bookmarks />
     </div>
     );
   }
 }
-
+ 
 export default App;
