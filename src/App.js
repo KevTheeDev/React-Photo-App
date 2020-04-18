@@ -1,5 +1,6 @@
 import React from 'react';
-import style from './component/style.css';
+// @ts-ignore
+import NavigationBar from './component/NavigationBar.css';
 import Login from './component/Login.js';
 
  
@@ -7,8 +8,6 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      username: 'Timothy',
-      password: 'timothyon10',
      };
   }
   render() {
