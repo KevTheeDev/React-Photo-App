@@ -7,6 +7,12 @@ li{
     float: left;
 }
 
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 li a{
     /* display block put the list in the middle */
     /* padding creates space between the words */

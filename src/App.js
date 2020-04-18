@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './component/style.css'
+import style from './component/style.css';
 import Login from './component/Login.js';
 
  
@@ -7,21 +7,21 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      username: '',
-      password: '',
+      username: 'Timothy',
+      password: 'timothyon10',
      };
   }
   render() {
     return (
       <div>
-        <ul>
-            <li><a className="active">Home </a></li>
+        <ul className="navList">
+            <li><a className="active"> Home </a></li>
 
             <li className="dropdown">
-                <a className="dropdown" >About </a>
+                <a className="dropdown" > User Profile </a>
             </li>
 
-            <li><a>Next</a></li>
+            <li><a> Bookmark and Saved Images </a></li>
         </ul>
 
         <Login />
