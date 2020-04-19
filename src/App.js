@@ -2,6 +2,7 @@ import React from 'react';
 import NavigationBar from './component/NavigationBar.css';
 import Login from './component/Login.js';
 import Home from './component/Home.js';
+import UserProfile from './component/UserProfile.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends React.Component {
 
         <Login />
         <Home />
+        <UserProfile />
     </div>
     );
   }

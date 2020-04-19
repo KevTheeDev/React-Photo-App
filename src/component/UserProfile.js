@@ -3,7 +3,7 @@ import React from 'react';
 function Profile(){
     return(
         <React.Fragment>
-            <h1> User Profile </h1>
+            <h3> User Profile </h3>
         </React.Fragment>
     )
 }
