@@ -1,4 +1,5 @@
 import React from 'react';
+import NavigationBar from './component/NavigationBar.css';
 import Login from './component/Login.js';
 import Home from './component/Home.js';
 
