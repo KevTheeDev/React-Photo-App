@@ -4,6 +4,7 @@ import Login from './Login.js';
 import Home from './Home.js';
 import UserProfile from './UserProfile.js';
 import { Route, BrowserRouter as Router, Link, Switch, } from 'react-router-dom';
+import Bookmarks from './Bookmarks';
 
 
 
@@ -14,24 +15,11 @@ class NavigationBar extends React.Component {
     }
     render() { 
         return ( 
-            <Router>
-                <div>
-                    <nav>
-                        <ul className="navList">
-                            <Link to="/Home"> <li> <a className="active"> Home </a></li></Link>
-
-                            <li className="dropdown">
-                                <a className="dropdown" > User Profile </a>
-                            </li>
-
-                            <li><a> Bookmark and Saved Images </a></li>
-                        </ul>
-                    </nav>   
-                    <Switch>
-                        <Route exact path="/Home" component={Home} />
-                    </Switch>
-                </div> 
-            </Router> 
+            <div>
+                <Home />
+                <Bookmarks />
+                <UserProfile />
+            </div>
 
          );
     }

@@ -16,8 +16,6 @@ class App extends React.Component {
       <div>
         <NavigationBar />
         <Login />
-        <Home />
-        <UserProfile />
     </div>
     );
   }
