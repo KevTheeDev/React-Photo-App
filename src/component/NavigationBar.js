@@ -1,4 +1,6 @@
 import React from 'react';
+import './NavigationBar.css';
+
 
 
 class NavigationBar extends React.Component {
