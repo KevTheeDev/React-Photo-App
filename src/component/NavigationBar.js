@@ -15,14 +15,14 @@ class NavigationBar extends React.Component {
     render() { 
         return ( 
             <Router> 
-            <div className="App">
+            <div className="navList">
               <nav> 
                 <ul>
                   <li>
                     <Link to="/Home">Home</Link>
                   </li>
                   <li>
-                    <Link to="/Category">Category</Link>
+                    <Link to="/Bookmarks">Bookmarks </Link>
                   </li>
                   <li>
                     <Link to="/UserProfile">UserProfile</Link>
