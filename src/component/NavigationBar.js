@@ -1,6 +1,5 @@
 import React from 'react';
 import './NavigationBar.css';
-import Login from './Login.js';
 import Home from './Home.js';
 import UserProfile from './UserProfile.js';
 import { Route, BrowserRouter as Router, Link, Switch, } from 'react-router-dom';
@@ -15,9 +14,29 @@ class NavigationBar extends React.Component {
     }
     render() { 
         return ( 
-            <div>
-
+            <Router> 
+            <div className="App">
+              <nav> 
+                <ul>
+                  <li>
+                    <Link to="/Home">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/Category">Category</Link>
+                  </li>
+                  <li>
+                    <Link to="/UserProfile">UserProfile</Link>
+                  </li>
+                </ul>
+              </nav>
+      
+              <Switch>
+                <Route exact path="/Home" component={Home} />
+                <Route exact path="/Bookmarks" component={Bookmarks} />
+                <Route exact path="/UserProfile" component={UserProfile} />
+              </Switch>
             </div>
+          </Router>
 
          );
     }
