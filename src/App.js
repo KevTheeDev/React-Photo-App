@@ -18,10 +18,7 @@ class App extends React.Component {
     return (
       <div>
         <NavigationBar />
-        <Login />
-        <Home />
-        <Bookmarks />
-        <UserProfile />               
+        <Login />           
 </div>
     );
   }
