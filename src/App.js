@@ -19,14 +19,15 @@ class App extends React.Component {
       //evrything btwn the router will use teh routing ability
       <Router>
         <div>
+          <nav> 
+
+          </nav>
           <NavigationBar />
-            <Route path="/component/Home" component={Home} />
-            <Route path="/Bookmarks" component={Bookmarks} />
-            <Route path="/UserProfile" component={UserProfile} />
+
+
           
           <Login />        
-          <Home />   
-      </div>
+        </div>
       </Router>
 
     );
