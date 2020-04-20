@@ -16,17 +16,21 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
-        <NavigationBar />
-        <Route exact path="/Home" component={Home} />
-        <Route exact path="/Bookmarks" component={Bookmarks} />
-        <Route exact path="/UserProfile" component={UserProfile} />
-        <Login />        
-        <Home />   
-    </div>
+      //evrything btwn the router will use teh routing ability
+      <Router>
+        <div>
+          <NavigationBar />
+            <Route path="/component/Home" component={Home} />
+            <Route path="/Bookmarks" component={Bookmarks} />
+            <Route path="/UserProfile" component={UserProfile} />
+          
+          <Login />        
+          <Home />   
+      </div>
+      </Router>
 
     );
   }
 }
- 
+  
 export default App;
