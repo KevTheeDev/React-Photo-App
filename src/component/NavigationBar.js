@@ -31,9 +31,6 @@ class NavigationBar extends React.Component {
               </nav>
       
               <Switch>
-                <Route exact path="/Home" component={Home} />
-                <Route exact path="/Bookmarks" component={Bookmarks} />
-                <Route exact path="/UserProfile" component={UserProfile} />
               </Switch>
             </div>
           </Router>

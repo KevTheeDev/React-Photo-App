@@ -18,8 +18,13 @@ class App extends React.Component {
     return (
       <div>
         <NavigationBar />
-        <Login />           
-</div>
+        <Route exact path="/Home" component={Home} />
+        <Route exact path="/Bookmarks" component={Bookmarks} />
+        <Route exact path="/UserProfile" component={UserProfile} />
+        <Login />        
+        <Home />   
+    </div>
+
     );
   }
 }
