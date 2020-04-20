@@ -5,7 +5,7 @@ function Bookmarks(){
     return(
         <React.Fragment>
             {/* <h3> Bookmarks </h3> */}
-                        <Router>
+            <Router>
                 <div>
                     <nav>
                         <ul className="navList">

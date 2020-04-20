@@ -16,9 +16,7 @@ class NavigationBar extends React.Component {
     render() { 
         return ( 
             <div>
-                <Home />
-                <Bookmarks />
-                <UserProfile />
+
             </div>
 
          );
