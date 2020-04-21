@@ -40,11 +40,9 @@ class NavigationBar extends React.Component {
               </nav>
       
             {/* <Route exact path="/NavigationBar" component={NavigationBar} /> */}
-                {/* <Route exact path="/" component={Home} />  */}
-                {/* <Route exact path="/Login" component={Login} />
-                <Route path="/Bookmarks" component={Bookmarks} /> */}
-                <Route exact path="/UserProfile" component={UserProfile} />    
-            </div>
+            
+          <Route exact path="/Login" component={Login} />
+            </div>  
 
 
          );
