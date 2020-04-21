@@ -21,7 +21,8 @@ class App extends React.Component {
         <div className="App">  
           <NavigationBar />
           <Route exact path="/" component={Home} /> 
-
+          <Route exact path="/Login" component={Login} />
+          <Route path="/Bookmarks" component={Bookmarks} />
         </div>
       </Router>
 
