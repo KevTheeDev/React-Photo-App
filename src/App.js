@@ -23,6 +23,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home} /> 
           <Route path="/Bookmarks" component={Bookmarks} />
           <Route exact path="/UserProfile" component={UserProfile} />   
+          {/* insert pic in hmpg */}
         </div>
       </Router>
 
