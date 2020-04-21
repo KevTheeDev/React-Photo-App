@@ -24,8 +24,8 @@ class Login extends React.Component {
     onSubmit(e){
         // this.props.onSubmit(this.state)
         this.setState({
-          username: '',
-          password: '',
+          username: 'Ozzy',
+          password: 'Drix',
         })
       }   
 
