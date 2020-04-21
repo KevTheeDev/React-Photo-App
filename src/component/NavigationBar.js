@@ -21,7 +21,7 @@ class NavigationBar extends React.Component {
               <nav> 
                 <ul>
                   <li>
-                    <Link to="/Home">Home</Link>
+                    <Route exact path="/Home" component={Home} />
                   </li>
                   <li>
                     <Link to="/Bookmarks">Bookmarks </Link>
@@ -36,7 +36,6 @@ class NavigationBar extends React.Component {
               </nav>
       
             {/* <Route exact path="/NavigationBar" component={NavigationBar} /> */}
-            <Route exact path="/Home" component={Home} />
             <Route exact path="/Bookmarks" component={Bookmarks} />
             <Route exact path="/UserProfile" component={UserProfile} />
             <Route exact path="/Login" component={Login} />

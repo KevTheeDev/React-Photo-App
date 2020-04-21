@@ -17,18 +17,12 @@ class App extends React.Component {
   render() {
     return (
       //evrything btwn the router will use teh routing ability
-      <Router>
+      
         <div>
-          <nav> 
-
-          </nav>
           <NavigationBar />
+          <Route exact path="/Home" component={Home} />
 
-
-          
-          <Login />        
         </div>
-      </Router>
 
     );
   }
