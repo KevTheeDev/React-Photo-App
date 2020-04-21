@@ -52,7 +52,7 @@ class Login extends React.Component {
           {/* added onClick calls this.onInput */}
           {/* the page doesn't auto refresh so I don't pass an event */}
           <button className='btn' onClick={() => this.onSubmit()}> {this.onSubmit} Login</button>
-          <button className='btn' onClick={() => this.onSubmit()}> {this.onSubmit} Register</button>
+          {/* <button className='btn' onClick={() => this.onSubmit()}> {this.onSubmit} Register</button> */}
       
          </div>
         );
