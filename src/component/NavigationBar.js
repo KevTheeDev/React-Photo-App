@@ -32,7 +32,7 @@ class NavigationBar extends React.Component {
                   <li>
                     <Link to="/Login">Login</Link>
                   </li>
-                </ul>
+                </ul> 
               </nav>
       
             {/* <Route exact path="/NavigationBar" component={NavigationBar} /> */}
