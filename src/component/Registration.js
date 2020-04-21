@@ -9,7 +9,9 @@ class Registration extends React.Component {
             password: '',
          };
          // bind .this to control for the component onInput
+         // I may need need binding for this.onSubmit but maybe not
          this.onInput = this.onInput.bind(this);
+         this.onSubmit = this.onSubmit.bind(this);
     }
 
     // (e.target.name, e.target.value);

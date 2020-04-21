@@ -11,6 +11,8 @@ class Login extends React.Component {
          };
          // bind .this to control for the component onInput
          this.onInput = this.onInput.bind(this);
+         this.onSubmit = this.onSubmit.bind(this);
+
     }
 
     // (e.target.name, e.target.value);
