@@ -16,30 +16,36 @@ class NavigationBar extends React.Component {
     }
     render() { 
         return ( 
-            <Router> 
+
             <div className="navList">
               <nav> 
                 <ul>
                   <li>
-                    Home
+                    <Link to="/">Home</Link>
                   </li>
+
                   <li>
                     <Link to="/Bookmarks">Bookmarks </Link>
                   </li>
+
                   <li>
                     <Link to="/UserProfile">UserProfile</Link>
                   </li>
+
                   <li>
                     <Link to="/Login">Login</Link>
                   </li>
-                </ul> 
+
+                </ul>
               </nav>
       
             {/* <Route exact path="/NavigationBar" component={NavigationBar} /> */}
-            <Route exact path="/Home" component={Home} />
-            <Route exact path="/Login" component={Login} />
+                {/* <Route exact path="/" component={Home} />  */}
+                <Route exact path="/Login" component={Login} />
+                <Route path="/Bookmarks" component={Bookmarks} />
+                <Route exact path="/UserProfile" component={UserProfile} />    
             </div>
-          </Router>
+
 
          );
     }

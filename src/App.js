@@ -18,11 +18,10 @@ class App extends React.Component {
     return (
       //evrything btwn the router will use teh routing ability
       <Router>
-        <div>
+        <div className="App">  
           <NavigationBar />
-          <Route exact path="/Home" component={Home} /> 
-          <Route exact path="/Bookmarks" component={Bookmarks} />
-          <Route exact path="/UserProfile" component={UserProfile} />    
+          <Route exact path="/" component={Home} /> 
+
         </div>
       </Router>
 
