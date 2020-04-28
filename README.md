@@ -1,10 +1,10 @@
+![wireframe](./Wireframe-REACT1.png)
+
+![wireframe](./Wireframe-REACT2.png)
+
 For PROGRAM to work
 
 Install npm i react-router-dom
-
-
-
-
 
 
 
