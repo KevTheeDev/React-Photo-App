@@ -1,4 +1,5 @@
 import React from 'react';
+// @ts-ignore
 import home_redandblue_bkcgrnd from '../images/home_redandblue_bkcgrnd.jpg'
 import './Home.css'
 import { Route, BrowserRouter as Router, Link, Switch, } from 'react-router-dom';
@@ -27,11 +28,11 @@ class Home extends React.Component {
         <div>
             <h1 className="hmpg"> Home Page  </h1>
                 <div>
-                    <img src={ home_redandblue_bkcgrnd } className="home-background" alt="blue-red" /> {image} 
-                    <p className="image-container"> </p>
+                    <img src={ home_redandblue_bkcgrnd } className="home-background" alt="blue-red" /> 
                     </div>
-                    <div  >
-                </div>
+                    <div className="image-container" >
+                        <p className="image-container">{ image } </p>
+                    </div>
         </div>
         )
     }

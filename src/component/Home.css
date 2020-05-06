@@ -5,3 +5,7 @@
         opacity: 30;
     }
 
+    .image-container{
+        height: auto;
+        width: auto;
+    }
